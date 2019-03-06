@@ -1,3 +1,11 @@
 *{
 	box-sizing: border-box;
 }
+
+.background {
+	height: 1000px;
+	background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+	background-size: 100% 100%; 
+	
+	
+}
