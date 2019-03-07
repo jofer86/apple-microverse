@@ -27,6 +27,26 @@ header {
 	flex-grow: 1;
 }
 
+main{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+main :nth-child(1){
+	color: white;
+	font-size: 80px;
+	font-family: 'Thasadith', sans-serif;
+}
+
+main :nth-child(2){
+	color: white;
+	font-size: 30px;
+	font-family: 'Thasadith', sans-serif;
+}
+
 .foot{
 	display: flex;
 }
@@ -39,19 +59,23 @@ header {
 }
 
 .five-s{
-	background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg)
+	background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
+	background-position: center;
 }
 
 .five-c{
 	background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
+	background-position:center;
 }
 
 .hb {
 	background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg);
+	background-position:center;
 }
 
 .supplier {
 	background: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
+	background-position:center;
 }
 
 footer{
@@ -86,13 +110,18 @@ footer p {
 	display:flex;
 	justify-content: space-evenly;
 	margin-top:18px;
-	margin-right: 25%;
+	margin-right: 20%;
 }
 
 .footer-list span {
 	color: gray;
 	font-size: 12px;
 	margin-top:4px;
+}
+
+.footer-list img {
+	height:16px;
+	width:16px;
 }
 
 .list-items{
