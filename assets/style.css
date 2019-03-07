@@ -3,9 +3,27 @@
 }
 
 .background {
-	height: 1000px;
+	height: 600px;
 	background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
-	background-size: 100% 100%; 
+	background-position: 20% 100%; 
 	
-	
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	height: 20%;
+	align-content: center;
+}
+
+.navbar {
+	display: flex;
+	height: 30px;
+	width: 80%;
+	background: gray;
+	border-radius: 6px;
+}
+
+.navbar form {
+	display: inline-block;
 }
