@@ -193,9 +193,24 @@ footer p {
 	width:16px;
 }
 
-.list-items{
+.footer-list li {
 	font-size: 10px;
-	padding:4px;
+	padding-left: 10px;
+	padding-top: 5px;
+	margin: 0 ;
+	border-left: 1px solid #cccccc;
+}
+
+.footer-list :nth-child(1) {
+	border-left: none;
+}
+
+.footer-list :nth-child(8) {
+	margin:  0;
+}
+
+.list-items a {
+	
 
 }
 
