@@ -21,11 +21,39 @@ header {
 	height: 30px;
 	width: 80%;
 	background: linear-gradient(#878787, #5e5e5e, #737373);
+	align-items: center;
 	border-radius: 6px;
 }
+
+
 .navbar a{
 	flex-grow: 1;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Thasadith', sans-serif;
+	font-weight: 700;
+	color:white;
+	border-right: 1px solid gray;
+	border-left:  1px solid gray;
+	padding:7px;
 }
+
+.navbar :nth-child(1) {
+	border-left: none;
+}
+
+
+
+.navbar input {
+	margin: auto 10%;
+	width: 80%;
+	border-radius: 9px;
+	background: linear-gradient(#878787, #5e5e5e, #737373);
+	border: 1px;
+	/*	box-shadow: 14px; */
+	border-style: inset;
+}
+
 
 main{
 	display: flex;
