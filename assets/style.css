@@ -66,7 +66,7 @@ footer{
 	flex-flow: column;
 	align-items: flex-start;
 	justify-content: space-evenly;
-	background: gray;
+	
 }
 
 .footer-left p{
@@ -74,22 +74,39 @@ footer{
 }
 
 footer p {
-	font-size: 10px;
+	font-size: 11px;
 }
 
 .footer-right{
 	flex-grow: 1;
-	background:green;
+	
 }
 
 .footer-list{
 	display:flex;
 	justify-content: space-evenly;
-	margin-top:20px;
+	margin-top:18px;
+	margin-right: 25%;
+}
 
+.footer-list span {
+	color: gray;
+	font-size: 12px;
+	margin-top:4px;
 }
 
 .list-items{
 	font-size: 10px;
 	padding:4px;
+
+}
+
+footer a {
+	font-size: 11px;
+	color:#5fd7fd;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
 }
