@@ -29,10 +29,22 @@ header {
 
 main{
 	display: flex;
-	justify-content: space-around;
 	flex-direction: column;
+	justify-content: space-around;
 	align-items: center;
 	text-align: center;
+}
+
+main p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.player {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
 }
 
 main :nth-child(1){
@@ -42,6 +54,13 @@ main :nth-child(1){
 }
 
 main :nth-child(2){
+	width: 720px;
+	color: white;
+	font-size: 30px;
+	font-family: 'Thasadith', sans-serif;
+}
+
+main :nth-child(3) p {
 	color: white;
 	font-size: 30px;
 	font-family: 'Thasadith', sans-serif;
