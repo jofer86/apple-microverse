@@ -20,7 +20,7 @@ header {
 	display:flex;
 	height: 30px;
 	width: 80%;
-	background: gray;
+	background: linear-gradient(#878787, #5e5e5e, #737373);
 	border-radius: 6px;
 }
 .navbar a{
@@ -40,20 +40,25 @@ main p {
 	margin-bottom: 10px;
 }
 
-.player {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: flex-end;
+.player p{
+	display: inline-block;
 }
 
-main :nth-child(1){
+
+.player i {
+	margin-left: 10px;
+	color:white;
+	
+}
+
+
+.p-one{
 	color: white;
 	font-size: 80px;
 	font-family: 'Thasadith', sans-serif;
 }
 
-main :nth-child(2){
+.p-two{
 	width: 720px;
 	color: white;
 	font-size: 30px;
