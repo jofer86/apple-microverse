@@ -3,7 +3,8 @@
 }
 
 body{
-	max-width:100%;
+	width:1440px;
+	max-width: 100%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -11,8 +12,9 @@ body{
 .background {
 	height: 570px;
 	background-image: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
-	background-position: 20% 100%; 
+	background-position: 50% 100%; 
 	background-repeat: no-repeat;
+
 	
 }
 
@@ -114,6 +116,7 @@ main :nth-child(3) p {
 
 .foot{
 	display: flex;
+
 }
 
 .foot-element{
