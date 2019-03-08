@@ -51,21 +51,35 @@ header {
 	border-left: none;
 }
 
-
+.navbar form {
+	margin: auto 5px;
+}
 
 .navbar input {
 	margin: auto 10%;
+	padding-left: 30px;
 	width: 80%;
 	border-radius: 9px;
-	background: linear-gradient(#878787, #5e5e5e, #737373);
+	background: linear-gradient(#878787, #5e5e5e, #737373); 
 	border: 1px;
-	border-style: inset;
-	background-image: url("/assets/d0ef1122ffd9b5330aeaf829bb14edb0.png");
-	background-size: 18px;
-	background-repeat: no-repeat;
-	background-position: 10px 0;
+	border-style: inset; 
+	background-image: url("https://image.flaticon.com/icons/png/512/57/57784.png");
+	background-size: 15px;
+	background-repeat: no-repeat; 
+	background-position: 5%;
 
 }
+
+.navbar input:focus {
+	width: 90%;
+	background: white;
+	background-image: url("https://image.flaticon.com/icons/png/512/57/57784.png");
+	background-size: 15px;
+	background-repeat: no-repeat; 
+	background-position: 5%;
+	margin-left: 5%;
+}
+
 
 
 
